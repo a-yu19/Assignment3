@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<title>Quiz</title>
+	</head>
+	<title>Quiz 1 Page</title>
+	<link rel="stylesheet" href="index.css">
+	<body>
+		<div class="timer">
+			<span class="timer_part timer_part-minutes">00</span>
+			<span class="timer_part">:</span>
+			<span class="timer_part timer_part-seconds">00</span>
+		</div>
+		<div class="qBoard">
+			<div id="quiz" class="justify-center flex-column">
+				<div id="hud">
+					<div class="hud-item">
+						<p id="progressText" class="hud-prefix">
+							Question
+						</p>
+						<div id="progressBar">
+							<div class="progress-bar-full"></div>
+						</div>
+					</div>
+				</div>
+			<div class="ques" id="question">
+			</div>				
+				<input type="radio" id="opt1" name="options">
+				<span id="optt1"></span>
+			</div>
+			<div>
+				<input type="radio" id="opt2" name="options">
+				<span id="optt2"></span>
+			</div>
+			<div>
+				<input type="radio" id="opt3" name="options">
+				<span id="optt3"></span>
+			</div>
+			<div class="lftCss">
+			<button class= "nxtBtn" onclick="checkAnswer()">Next></button>
+		</div>
+			</div>		
+	</div>
+	<script src="data1.js"></script>
+	<script src="index1.js"></script>
+	</body>
+</html>
